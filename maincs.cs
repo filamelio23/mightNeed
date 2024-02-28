@@ -8,7 +8,7 @@
             {
                 priceModel.DisableBuyButton = product.DisableBuyButton || !context.AllowShoppingCart || !context.AllowPrices;
                 priceModel.DisableWishlistButton = product.DisableWishlistButton || !context.AllowWishlist || !context.AllowPrices;
-                priceModel.AvailableForPreOrder = product.AvailableForPreOrder;
+                priceModel.AvailableForPreOrder = product.AvailableForPreOrder;//good
             }
         public async Task<List<BrandOverviewModel>> PrepareBrandOverviewModelAsync(
             ICollection<ProductManufacturer> brands,
