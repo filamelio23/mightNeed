@@ -25,4 +25,4 @@
                     .Select(x => x.Manufacturer.MediaFileId ?? 0)
                     .Where(x => x > 0)
                     .Distinct()
-                    .ToArray();
+                    .ToArray();//nice
